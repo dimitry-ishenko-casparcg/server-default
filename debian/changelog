@@ -1,3 +1,9 @@
+server-default (2.4-1) unstable; urgency=medium
+
+  * casparcg-defaults => server-default
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Fri, 20 Sep 2024 19:24:51 -0400
+
 casparcg-defaults (2.4) unstable; urgency=medium
 
   * Initial release.
