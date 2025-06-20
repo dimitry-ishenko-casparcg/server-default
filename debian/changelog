@@ -1,3 +1,9 @@
+server-default (2.4-2) unstable; urgency=medium
+
+  * d/control: fix architecture
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Tue, 08 Oct 2024 21:52:26 -0400
+
 server-default (2.4-1) unstable; urgency=medium
 
   * casparcg-defaults => server-default
