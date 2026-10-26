@@ -1,0 +1,13 @@
+#!/bin/bash
+
+XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
+XDG_STATE_HOME="${XDG_STATE_HOME:-$HOME/.local/state}"
+
+V=2.5
+mkdir -p "$XDG_CONFIG_HOME/casparcg-server-$V"
+ln -sfn "casparcg-server-$V" "$XDG_CONFIG_HOME/casparcg-server"
+
+mkdir -p "$XDG_STATE_HOME/casparcg-server-$V"
+ln -sfn "casparcg-server-$V" "$XDG_STATE_HOME/casparcg-server"
+
+exec casparcg-server-$V "$@"
