@@ -1,3 +1,9 @@
+server-default (2.5-2) unstable; urgency=medium
+
+  * Create config and state links
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Mon, 26 Oct 2026 15:46:06 -0400
+
 server-default (2.5-1) unstable; urgency=medium
 
   * Add LICENSE.md
