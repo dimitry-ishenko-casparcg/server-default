@@ -10,7 +10,6 @@ Vcs-Git: https://github.com/dimitry-ishenko-casparcg/server-default.git
 
 Package: casparcg-server
 Architecture: all
-Multi-Arch: foreign
 Depends: casparcg-server-2.5
 Description: CasparCG Server
  CasparCG Server is a Windows and Linux software used to play out professional
