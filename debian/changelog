@@ -1,3 +1,9 @@
+server-default (2.5-3) unstable; urgency=medium
+
+  * d/control: remove Multi-Arch field
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Sat, 07 Nov 2026 19:25:07 -0500
+
 server-default (2.5-2) unstable; urgency=medium
 
   * Create config and state links
